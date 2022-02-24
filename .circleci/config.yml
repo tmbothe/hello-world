@@ -11,7 +11,7 @@ jobs:
           paths:
             - output.txt
 
-print_output_file:
+  print_output_file:
     docker:
       - image: circleci/node:13.8.0
     steps:
